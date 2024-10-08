@@ -39,7 +39,7 @@
 5. Write a function named `sumOfThreeOrFive` that returns the sum of all the multiples of 3 or multiples of 5 from 1 to 1000, exclusive.
     
     ```
-    sumOfThreeAndFive() //returns 233168
+    sumOfThreeOrFive() //returns 233168
     
     ```
     
