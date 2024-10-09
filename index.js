@@ -49,19 +49,13 @@ const sumOfThreeOrFive = () => {
 // console.log(sumOfThreeOrFive());
 
 //6
-
 const isAllLowerCase = (str) => {
-  if (str === str.toLowerCase()) {
-    return true;
-  } else {
-    return false;
-  }
+  return str === str.toLowerCase();
 };
 // console.log(isAllLowerCase("hello"));
 // console.log(isAllLowerCase("Seven Eleven has the worst"));
 
 // Bonus
-
 const countMultiplesOfFive = (array) => {
   let count = 0;
   for (let i = 1; i <= array.length; i++) {
